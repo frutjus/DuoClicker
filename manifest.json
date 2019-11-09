@@ -1,0 +1,21 @@
+{
+	"name": "Cookie Clicker Mod",
+	"version": "0.2",
+	"permissions": ["declarativeContent", "storage", "activeTab"],
+	"description": "Mod for Clicking Cookies",
+	"background": {
+		"scripts": ["background.js"],
+		"persistent": false
+	},
+	"page_action": {
+		"default_popup": "popup.html",
+		"default_icon": {
+			"48": "images/icon48.png"
+		}
+	},
+	"icons": {
+		"48": "images/icon48.png"
+	},
+	"options_page": "options.html",
+	"manifest_version": 2
+}
