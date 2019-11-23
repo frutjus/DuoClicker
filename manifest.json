@@ -1,7 +1,7 @@
 {
 	"name": "Cookie Clicker Mod",
 	"version": "0.2",
-	"permissions": ["declarativeContent", "storage", "activeTab"],
+	"permissions": ["declarativeContent", "storage", "activeTab", "tabs", "https://*/*", "http://*/*"],
 	"description": "Mod for Clicking Cookies",
 	"background": {
 		"scripts": ["background.js"],
